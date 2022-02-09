@@ -1,9 +1,13 @@
 
-.body{
+*{
     margin: 0;
     padding: 0;
+
 }
 
+body{
+    overflow: hidden;
+}
 .header{
     display: flex;
 }
@@ -12,20 +16,31 @@
     .img-logo{
         display: none;
     }
-}
-
-@media only screen and (max-width: 990px){
-    .img-visibilility{
+    .loginsignmobile{
         display: none;
     }
 }
-/* li:hover{
+
+@media only screen and (max-width: 990px){
+    .header{
+        display: none;
+    }
+    /* .wow{
+        display: none;
+    } */
+}
+
+li:hover{
     color: red;
 
-} */
+}
 
 .button-position{
     margin-top: 20px;
+}
+
+.one{
+    width: 100%;
 }
 
 .wow{
@@ -38,14 +53,12 @@
     font-size: 35px;
 }
 @keyframes mymove {
-    /* from {left: 0%;}
-    to {left: 100%;} */
 
     0%{
         left: 0;
     }
     100%{
-        left: 52vw;
+        left: 55%;
     }
 }
 
@@ -67,4 +80,14 @@
     right: 10px;
     position: absolute;
     right: 10px;
+}
+
+.loginsignmobile{
+    position: absolute;
+    top: 120px;
+    left: 50px;
+}
+
+.button-margin{
+    margin: 10px;
 }
