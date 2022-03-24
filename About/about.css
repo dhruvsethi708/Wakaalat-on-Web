@@ -1,6 +1,10 @@
 *{
     margin: 0;
     padding: 0;
+    /* background-color: lightcyan; */
+}
+body{
+    background-color: lightcyan;   
 }
 .one{
     text-align: center;
@@ -17,6 +21,7 @@
 }
 
 .vision_heading{
+    background-color: beige !important;
     font-size: 30px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     color: crimson;
@@ -27,8 +32,9 @@
 }
 
 .vision{
-    margin-left: 50px;
-    margin-right: 50px;
+    background-color: beige !important;
+    margin-left: 80px;
+    margin-right: 80px;
     margin-top: 10px;
     margin-bottom: 60px;
     font-size: large;
@@ -36,6 +42,7 @@
 }
 
 .achievements{
+    background-color: beige !important;
     margin-left: 50px;
     margin-right: 50px;
     margin-top: 10px;
@@ -44,6 +51,7 @@
 }
 
 .achievements_heading{
+    background-color: beige !important;
     font-size: 30px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     color: crimson;
@@ -53,22 +61,27 @@
 }
 
 .vision_part{
-    margin-left: 70px;
-    margin-right: 70px;
-    margin-top: 10px;
+    border-radius: 20px;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    margin-left: 180px;
+    margin-right: 180px;
+    margin-top: 30px;
     margin-bottom: 60px;
-    background-color: beige;
+    background-color: beige !important;
     box-shadow: 30px;
     
 }
 
 .achievements_part{
-    margin-left: 70px;
-    margin-right: 70px;
-    margin-top: 10px;
+    border-radius: 20px;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    margin-left: 180px;
+    margin-right: 180px;
+    margin-top: 30px;
     margin-bottom: 60px;
-    background-color: beige;
+    background-color: beige !important;
     box-shadow: 30px;
     
 }
-
